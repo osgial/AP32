@@ -1,1 +1,2 @@
 cat anillo.txt | grep "agujero"
+cat anillo.txt | grep -i "agujero"
