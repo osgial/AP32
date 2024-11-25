@@ -1,4 +1,5 @@
 cat anillo.txt | grep "agujero"
 cat anillo.txt | grep -i "agujero"
 cat anillo.txt | grep -w "anillo"
-cat anillo.txt | grep -w -n -v "anillo"
+cat anillo.txt | grep -i -n -v "anillo"
+cat anillo.txt | grep "^Frodo"
